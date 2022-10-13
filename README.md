@@ -1,3 +1,8 @@
+# Plug P100
+This is a fork of original work of [@K4CZP3R](https://github.com/K4CZP3R/tapo-p100-python)
+
+**The purpose of this fork is support for the P110.**
+
 # tapo-p100-python
 Work in progress implementation of tapo protocol in python.
 
