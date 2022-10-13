@@ -1,4 +1,4 @@
-
+# python main2.py nineking424@gmail.com tjrxo424 192.168.0.48
 from p110 import P110
 import logging
 import argparse
@@ -18,7 +18,7 @@ FORMAT = "[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s"
 logging.basicConfig(format=FORMAT)
 logger.setLevel(logging.INFO)
 
-logger.info(f"Will change state of plug at '{args.address}' to '{args.new_state}'")
+logger.info(f"Will get state & energy of plug at '{args.address}'")
 
 my_plug = P110(args.address)
 my_plug.handshake()
